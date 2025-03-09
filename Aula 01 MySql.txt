@@ -1,39 +1,39 @@
-Aula 01 MySql                                                    26/02/25
-
+Aula 01 – MySQL 📌 (26/02/2025)
 Origem dos Bancos de Dados
+📌 Década de 1950: Antes da digitalização, os dados eram registrados manualmente em papel, organizados em pastas e armazenados em arquivos metálicos.
 
-Década de 50: Dados escritos em papel, colocado em uma pasta e armazenado em um arquivo de metal.
+📌 Comparação com bancos de dados modernos:
 
-Papel = Registros
-Pasta = Tabelas
-Armário = Arquivos
+Papel → Registros
+Pasta → Tabelas
+Armário → Arquivos
+⚠️ Problema: O acúmulo excessivo de papel dificultava a organização e recuperação das informações.
 
-Ocorria um acúmulo muito grande de papel.
+A evolução da digitalização
+✅ Anos 1950: Início da digitalização. Os dados passaram a ser armazenados sequencialmente em fitas magnéticas, com estrutura semelhante a um PDF, onde as informações eram registradas uma após a outra.
 
-A partir da década de 50 começou a digitalizar, em que os dados eram armazenados sequencialmente em fitas ou seja um abaixo do outro como um pdf.
+📌 Arquivos Sequenciais: Para acessar um dado específico, era necessário percorrer toda a sequência desde o início, tornando a recuperação lenta e ineficiente.
 
-Arquivos Sequenciais: Se quisesse pegar alguma informação no meio dos dados era preciso iniciar desde o começo o bando de dados.
+✅ Chegada dos discos rígidos (HDD):
 
+Permitiu o armazenamento não sequencial dos dados.
+Tornou possível acessar diretamente a informação desejada sem precisar percorrer toda a base.
+Surgiram os índices, otimizando a busca de informações.
+Esse modelo foi chamado de Arquivos de Acesso Direto.
+A era dos bancos de dados
+✅ Década de 1960: O Departamento de Defesa dos EUA criou o CODASYL, um grupo responsável pelo desenvolvimento de padrões para linguagens de programação e bancos de dados.
 
-Após isso surgiram os discos, HDD, esses eram armazenados de maneira direta e não sequencial, ou seja você podia ir direto na informação que queria.
+📌 Nesse encontro, surgiu a linguagem COBOL e foram discutidos conceitos fundamentais para o desenvolvimento dos bancos de dados modernos.
 
-Nessa época surgiu os índices. 
+🛠️ Componentes de um banco de dados:
 
-Seu nome foi Arquivos de Acesso Direto. 
+Base de Dados – Onde os dados são armazenados.
+Sistema Gerenciador de Banco de Dados (SGBD) – Responsável pelo gerenciamento e segurança dos dados.
+Linguagem de Exploração – Permite consultar e manipular os dados (ex.: SQL).
+Programas Adicionais – Softwares auxiliares para otimização e administração.
+📌 A IBM e a evolução dos bancos de dados
+Na época, a IBM era referência em tecnologia (como o Google hoje) e apresentou os primeiros modelos de bancos de dados:
 
-
-Na década de 60 o Departamento de Defesa dos EUA criou o CODASYL, foi um grande encontro que nele surgiu o COBOL, também foi discutido o surgimento de uma nova tecnologia conhecida como banco de dados.
-
-O bando de dados é composto por 4 partes:
-Base de Dados
-Sistema Gerenciador
-Linguagem de Exploração
-Programas Adicionais
-
-A partir desse momento a IBM foi muito importante, na época a IBM era como o Google hoje, a IBM apresentou modelos de bancos de dados
-
-Modelos: Modelo hierárquico, Modelo em Rede
-
-
-Na década de 70 o Edgar F. Codd, propôs um novo modelo em que os dados seriam armazenados no modelo relacional.
-
+Modelo Hierárquico – Organização em estrutura de árvore.
+Modelo em Rede – Permitia relações mais flexíveis entre os dados.
+✅ Década de 1970: O matemático Edgar F. Codd propôs o modelo relacional, revolucionando a forma de armazenamento e acesso aos dados. Esse modelo é a base do SQL e dos bancos de dados modernos, como MySQL, PostgreSQL e SQL Server.
