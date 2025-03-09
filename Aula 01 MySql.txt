@@ -1,0 +1,39 @@
+Aula 01 MySql                                                    26/02/25
+
+Origem dos Bancos de Dados
+
+Década de 50: Dados escritos em papel, colocado em uma pasta e armazenado em um arquivo de metal.
+
+Papel = Registros
+Pasta = Tabelas
+Armário = Arquivos
+
+Ocorria um acúmulo muito grande de papel.
+
+A partir da década de 50 começou a digitalizar, em que os dados eram armazenados sequencialmente em fitas ou seja um abaixo do outro como um pdf.
+
+Arquivos Sequenciais: Se quisesse pegar alguma informação no meio dos dados era preciso iniciar desde o começo o bando de dados.
+
+
+Após isso surgiram os discos, HDD, esses eram armazenados de maneira direta e não sequencial, ou seja você podia ir direto na informação que queria.
+
+Nessa época surgiu os índices. 
+
+Seu nome foi Arquivos de Acesso Direto. 
+
+
+Na década de 60 o Departamento de Defesa dos EUA criou o CODASYL, foi um grande encontro que nele surgiu o COBOL, também foi discutido o surgimento de uma nova tecnologia conhecida como banco de dados.
+
+O bando de dados é composto por 4 partes:
+Base de Dados
+Sistema Gerenciador
+Linguagem de Exploração
+Programas Adicionais
+
+A partir desse momento a IBM foi muito importante, na época a IBM era como o Google hoje, a IBM apresentou modelos de bancos de dados
+
+Modelos: Modelo hierárquico, Modelo em Rede
+
+
+Na década de 70 o Edgar F. Codd, propôs um novo modelo em que os dados seriam armazenados no modelo relacional.
+
