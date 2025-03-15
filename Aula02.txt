@@ -1,0 +1,31 @@
+MySql surgiu na Suécia em 1994 por Michael Widenius e David Axmark, eles
+resolveram criar um modelo gratuito e livre baseado no modelo relacional
+
+GPL (General public license): Licença de software livre
+
+E em 2007 a Sun Microsystems comprou o MySql tal empresa que criou o Java
+
+E em 2009 a Oracle comprou a Sun Microsystems.
+
+Com isso Michael Widenius e David Axmark ficaram chateados e saíram do MySql e criaram o MariaDB.
+
+Empresas que usam o mysql: nasa, cisco,adobe, google, ebay, etc.
+
+Definições do MySql
+
+DDL: definição
+DML: manipulação
+DQL: solicitação
+DCL: controle
+DTL: transações
+
+O DTL segue os 4 princípios chamados de DICA:
+
+D: durabilidade
+I: isolamento
+C: consistência
+A: atomicidade
+
+Para usar o MySql usa-se o pacote WAMP Server e o MySql Workbench
+
+Workbench: Ferramenta para acessar o MySql
